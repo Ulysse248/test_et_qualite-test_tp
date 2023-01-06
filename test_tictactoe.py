@@ -21,4 +21,4 @@ def test_announce_win(capsys):
 
     captured = capsys.readouterr()
 
-    assert captured.out ==  "Player X just nicked the game"
+    assert captured.out ==  "Player X just nicked the game\n"
