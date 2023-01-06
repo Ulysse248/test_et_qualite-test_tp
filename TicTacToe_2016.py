@@ -63,7 +63,7 @@ def start_gaming(board, symbol_1, symbol_2, count):
 
     # Check if players' selection is out of range
     while (row > 2 or row < 0) or (column > 2 or column < 0):
-        out_of_board(row, column)
+        out_of_board()
         row = int(input(PICK_A_ROW))
         column = int(input(PICK_A_COL))
 
